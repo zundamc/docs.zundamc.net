@@ -1,0 +1,63 @@
+site_name: ずんだMC Docs
+theme:
+  name: material
+  language: ja
+  logo: "assets/zunda.png"
+  favicon: "assets/zunda.png"  
+  features:
+    - navigation.sections
+    - navigation.path
+    - toc.integrate
+    - navigation.footer
+  palette:
+      scheme: slate
+      primary: green
+      accent: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+copyright: Copyright &copy; 2023 ZundaMC Network
+
+extra:
+  homepage: https://zundamc.net
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/zundamon_mc
+      name: Twitter
+    - icon: fontawesome/brands/github
+      link: https://github.com/zundamc
+      name: GitHub
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@zundamc
+      name: YouTube
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/zundamc
+      name: Discord
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:contact@zundamc.net
+      name: Mail Address
+
+nav:
+  - はじめに: index.md
+  - 基本:
+      - サーバーへの入り方: join.md
+      - サーバー間を移動: move.md
+      - コマンド一覧: commands.md
+  - その他:
+      - 使用プラグイン: plugins.md
+      - 運営体制: admin.md
+      - サポート: support.md
+  
+
+plugins:
+  - search
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
