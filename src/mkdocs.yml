@@ -42,9 +42,7 @@ extra:
 nav:
   - はじめに: index.md
   - 基本:
-      - サーバーへの入り方: join.md
-      - サーバー間を移動: move.md
-      - コマンド一覧: commands.md
+        - サーバーへの入り方: join.md
   - その他:
       - 使用プラグイン: plugins.md
       - 運営体制: admin.md

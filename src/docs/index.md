@@ -4,6 +4,5 @@ Docsを見て、ZundaMC Networkの知識をつけましょう！
 
 ## 初めての方へ
 * [サーバーへ参加](join.md) - サーバーへ参加するための方法
-* [サーバーを移動](move.md) - サーバーを移動するための方法(コマンド移動も)
-* [コマンド一覧](commands.md) - サーバーで使えるコマンド一覧
-* [サポート](support.md) - ずんだMCのサポート
+* [サポート](support.md) - ずんだMCのサポートについて
+* [Discord](https://discord.gg/zundamc) - 簡単にマイクラサーバーなどの質問ができます
